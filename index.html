@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Animeflix</title>
+</head>
+<body>
+    <header class="containercustom">
+        <div id="logo">
+            <a href="#">ANIMEFLIX</a>
+        </div>
+        <nav id="menu">
+            <a href="#">Início</a>
+            <a href="#">Minha lista</a>
+            <a href="#">Categorias</a>
+            <a href="#">Lançamentos futuros</a>
+        </nav>
+    </header>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/carousel1.png" class="d-block w-100" alt="Takt Op. Destiny">
+          </div>
+          <div class="carousel-item">
+            <img src="images/carousel2.png" class="d-block w-100" alt="The world's finest assassin">
+          </div>
+          <div class="carousel-item">
+            <img src="images/carousel3.png" class="d-block w-100" alt="Demon Slayer">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Próximo</span>
+        </button>
+      </div>
+      <div id="carouselMinhalista" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselMinhalista" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselMinhalista" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+                <div class="col-21 minhaLista">
+                    Continue assistindo
+                </div>          
+            </div>
+            <div class="row minhaLista">
+                <div class="col-2"><a href="#"><img class="minhaListaImg" src="images/taktoptdestiny.jpeg" alt="Takt Op. Destiny"></div></a>
+                <div class="col-2"><a href="#"><img class="minhaListaImg" src="images/bungostraydogs.jpeg" alt="Bungo Stray Dogs"></div></a>
+                <div class="col-2"><a href="#"><img class="minhaListaImg" src="images/petergrill.jpeg" alt="Peter Grill"></div></a>
+                <div class="col-2"><a href="#"><img class="minhaListaImg" src="images/onepiece.jpeg" alt="One Piece"></div></a>
+                <div class="col-2"><a href="#"><img class="minhaListaImg" src="images/boruto.jpeg" alt="Boruto"></div></a>                
+
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+                <div class="col-21 minhaLista">
+                    Continue assistindo
+                </div>          
+            </div>
+            <div class="row minhaLista">
+                <div class="col-2"><a href="#"><img class="minhaListaImg" src="images/blackclover.jpeg" alt="Black Clover"></div></a>
+                <div class="col-2"><a href="#"><img class="minhaListaImg" src="images/jujutsukaisen.jpeg" alt="Jujutsu Kaisen"></div></a>
+                <div class="col-2"><a href="#"><img class="minhaListaImg" src="images/parasyte.jpeg" alt="Parasyte"></div></a>
+                <div class="col-2"><a href="#"><img class="minhaListaImg" src="images/thecasestudyofvanitas.jpeg" alt="The Case Study Of Vanitas"></div></a>
+                <div class="col-2"><a href="#"><img class="minhaListaImg" src="images/demonslayer.jpeg" alt="Demon Slayer"></div></a>
+            </div>
+        </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselMinhalista" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselMinhalista" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Próximo</span>
+        </button>
+      </div>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
