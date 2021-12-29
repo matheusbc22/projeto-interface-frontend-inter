@@ -1,4 +1,3 @@
-"# projeto-interface-frontend-inter" 
 # Projeto recriando interface gráfica da Netflix
 ## Boot camp front-end Inter com Digital Innovation One
 
